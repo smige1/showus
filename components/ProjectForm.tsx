@@ -129,7 +129,7 @@ const ProjectForm = ({ type, session, project }: Props) => {
                 type="url"
                 title="Website URL"
                 state={form.liveSiteUrl}
-                placeholder="https://google.com"
+                placeholder="Add your URL Link"
                 setState={(value) => handleStateChange('liveSiteUrl', value)}
             />
 
@@ -137,7 +137,7 @@ const ProjectForm = ({ type, session, project }: Props) => {
                 type="url"
                 title="GitHub URL"
                 state={form.githubUrl}
-                placeholder="https://github.com/smige1"
+                placeholder="Add your Github Link"
                 setState={(value) => handleStateChange('githubUrl', value)}
             />
 
